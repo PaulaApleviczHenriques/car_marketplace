@@ -1,0 +1,230 @@
+html{
+    font-family: monospace;
+    margin: 0;
+    box-sizing: 0;
+    background: #242026;
+}
+body{
+    height: 150vh;
+}
+.slogan-box{
+    color: #fff;
+    opacity: 0.9;
+    border-bottom: 1px solid #a0a0a2dc;
+}
+.menu-box{
+    position: relative;
+    left: 0;
+    margin-top: 2vh;
+    width: 100%;
+    height: 7%;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 100%;
+}
+.imagem_logo{
+    width: 140px;
+    height: 90px;
+}
+.produtos button{
+    background-color: #242026;
+    padding: 10px 20px;
+    color: #a0a0a2dc;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    border: 1px solid #757577dc;
+    margin: auto;
+    position: absolute;
+    top: 25;
+    left: 40%;
+    width: 20%;
+    height: 50%;
+    box-shadow: 0, 15px, 25px, rgba(0, 0, 0, 0.7);
+}
+.produtos button:hover{
+    background: #757577dc;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #757577dc, 0 0 25px #757577dc, 0 0 50px #757577dc, 0 0 100px #757577dc;
+}
+.compra{
+    position: absolute;
+    top: 25;
+    left: 92%;
+}
+.compra button{
+    position: absolute;
+    background-color: #242026;
+    padding: 10px 20px;
+    color: #a0a0a2dc;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    border: 1px solid #757577dc;
+    margin: auto;
+}
+.compra button:hover{
+    background: #757577dc;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #757577dc, 0 0 25px #757577dc, 0 0 50px #757577dc, 0 0 100px #757577dc;
+}
+.mensagem-cativante{
+    background-image: url('ruta_40.jpg'); 
+    position: relative;
+    left: 0;
+    margin-top: 3%;
+    width: 100%;
+    height: 50%;
+    opacity: 0.9;
+}
+.mensagem-cativante h1{
+    position: absolute;
+    top: 350;
+    left: 30%;
+}
+.mensagem-box{
+    position: relative;
+    left: 0;
+    margin-top: 0vh;
+    width: 100%;
+    height: 5%;
+    color: #fff;
+    border-bottom: 1px solid #a0a0a2dc;
+}
+.mensagem-box h1{
+    position: absolute;
+    top: 2;
+    left: 38%;
+}
+.depoimentos-box-bmw{
+    position: absolute;
+    color: #fff;
+    border-radius: 5px;
+    width: 460px;
+    opacity: 0.9;
+    top: 10vh;
+    left: 20%;
+    height: 40%;
+}
+.depoimentos-box-bmw h2{
+    border-bottom: 1px solid #a0a0a2dc;
+}
+.depoimentos-box-jaguar{
+    position: absolute;
+    color: #fff;
+    border-radius: 5px;
+    width: 460px;
+    opacity: 0.9;
+    top: 30vh;
+    left: 40%;
+    height: 80%;
+}
+.depoimentos-box-jaguar h2{
+    border-bottom: 1px solid #a0a0a2dc;
+}
+.depoimentos-box-porsche{
+    position: absolute;
+    color: #fff;
+    border-radius: 5px;
+    width: 460px;
+    opacity: 0.9;
+    top: 10vh;
+    left: 60%;
+    height: 40%;
+}
+.depoimentos-box-porsche h2{
+    border-bottom: 1px solid #a0a0a2dc;
+}
+.localidade{
+    position: relative;
+    border-top: 1px solid #a0a0a2dc;
+    top: 20vh;
+    margin-top: 20vh;
+    width: 100%;
+    height: 5%;
+}
+.rua{
+    position: absolute;
+    color: #a0a0a2dc;
+    top: 0%;
+    left: 40%;
+    width: 40%;
+    height: 50%;
+}
+.tel{
+    position: absolute;
+    color: #a0a0a2dc;
+    top: 40%;
+    left: 40%;
+    width: 40%;
+    height: 50%;
+}
+.email{
+    position: absolute;
+    color: #a0a0a2dc;
+    top: 80%;
+    left: 40%;
+    width: 20%;
+    height: 50%;
+}
+footer{
+    position: relative;
+    top: 30vh;
+    width: 100%;
+    height: 15%;
+}
+.face{
+    position: absolute;
+    top: 90;
+    left: 30%;
+    width: 25%;
+    height: 25%;
+}
+.insta{
+    position: absolute;
+    top: 90;
+    left: 41%;
+    width: 10%;
+    height: 25%;
+}
+.twi{
+    top: 90;
+    left: 50%;
+    width: 10%;
+    height: 25%;
+    position: absolute;
+}
+.pint{
+    top: 90;
+    left: 58%;
+    width: 10%;
+    height: 25%;
+    position: absolute;
+}
+.img_facebook{
+    width: 40px;
+    height: 40px;
+}
+.img_instagram{
+    width: 40px;
+    height: 40px;
+}
+.img_twitter{
+    width: 40px;
+    height: 40px;
+}
+.img_pinterest{
+    width: 40px;
+    height: 40px;
+}
+

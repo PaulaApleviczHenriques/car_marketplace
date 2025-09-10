@@ -1,0 +1,362 @@
+body{
+  background-image: url('fundo_pro.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: monospace;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.botao{
+  position: relative;
+}
+.carrinho-de-compras{
+  position: absolute;
+  top: 2vh;
+  left: 90%;
+}
+.carrinho-de-compras button{
+  font-family: monospace;
+  padding: 10px 20px;
+  background: #757577dc;
+  color: #fff;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  border: 1px solid #757577dc;
+  margin: auto;
+  align-items: flex-start;
+
+}
+.carrinho-de-compras button:hover{
+  font-family: monospace;
+  background: #242026;
+  color: #a0a0a2dc;
+}
+.voltar{
+  position: absolute;
+  top: 2vh;
+  left: 2%;
+}
+.voltar button{
+  font-family: monospace;
+  margin-top: 90vh;
+  padding: 10px 20px;
+  background: #757577dc;;
+  color: #fff;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  border: 1px solid #757577dc;
+  margin: auto;
+
+}
+.voltar button:hover{
+  font-family: monospace;
+  background: #242026;
+  color: #a0a0a2dc;
+}
+.gallery {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 100%;
+  max-height: 23vw;
+  overflow: hidden;
+}  
+.gallery__stream {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 100%;
+}
+.gallery__item {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  transition: 1s all ease;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 5px;
+}
+.gallery__item:nth-child(1) {
+  left: 0;
+  z-index: 1;
+  transform: translateX(-100%) scale(.8);
+}
+.gallery__item:nth-child(2) {
+  left: 0;
+  z-index: 2;
+  transform: translateX(-50%) scale(.8);
+}
+.gallery__item:nth-child(3) {
+  left: 50%;
+  z-index: 4;
+  transform: translateX(-50%) scale(1);
+}
+.gallery__item:nth-child(4) {
+  left: 100%;
+  z-index: 2;
+  transform: translateX(-50%) scale(.8);
+  }
+  
+.gallery__item:nth-child(n+5) {
+  left: 100%;
+  z-index: 1;
+  transform: scale(.8);
+}
+.bg-1 {
+  background-image: url('f1.png');
+}
+.bg-2 {
+  background-image: url('f2.png');
+}
+.bg-3 {
+  background-image: url('f3.png');
+}
+.bg-4 {
+  background-image: url('f4.png');
+}
+.bg-5 {
+  background-image: url('f5.png');
+}
+.bg-6 {
+  background-image: url('f6.png');
+}
+.bg-7 {
+  background-image: url('f7.png');
+}
+.audi{
+  position: absolute;
+  color: #fff;
+  border-radius: 5px;
+  width: 160px;
+  margin-top: 0vh;
+  opacity: 0.9;
+}
+.audi button{
+  font-family: monospace;
+  position: absolute;
+  margin-top: 45vh;
+  padding: 10px 20px;
+  background: #757577dc;;
+  color: #fff;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  border: 1px solid #757577dc;
+  margin: auto;
+
+}
+.audi button:hover{
+  font-family: monospace;
+  background: #242026;
+  color: #a0a0a2dc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #757577dc, 0 0 25px #757577dc, 0 0 50px #757577dc, 0 0 100px #757577dc;
+}
+.volvo{
+  position: absolute;
+  color: #fff;
+  border-radius: 5px;
+  width: 160px;
+  margin-top: 0vh;
+  opacity: 0.9;
+}
+.volvo button{
+  font-family: monospace;
+  position: absolute;
+  margin-top: 45vh;
+  padding: 10px 20px;
+  background: #757577dc;;
+  color: #fff;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  border: 1px solid #757577dc;
+  margin: auto;
+
+}
+.volvo button:hover{
+  font-family: monospace;
+  background: #242026;
+  color: #a0a0a2dc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #757577dc, 0 0 25px #757577dc, 0 0 50px #757577dc, 0 0 100px #757577dc;
+}
+.bmw{
+  position: absolute;
+  color: #fff;
+  border-radius: 5px;
+  width: 160px;
+  margin-top: 0vh;
+  opacity: 0.9;
+}
+.bmw button{
+  font-family: monospace;
+  position: absolute;
+  margin-top: 45vh;
+  padding: 10px 20px;
+  background: #757577dc;;
+  color: #fff;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  border: 1px solid #757577dc;
+  margin: auto;
+
+}
+.bmw button:hover{
+  font-family: monospace;
+  background: #242026;
+  color: #a0a0a2dc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #757577dc, 0 0 25px #757577dc, 0 0 50px #757577dc, 0 0 100px #757577dc;
+}
+.jaguar{
+  position: absolute;
+  color: #fff;
+  border-radius: 5px;
+  width: 160px;
+  margin-top: 0vh;
+  opacity: 0.9;
+}
+.jaguar button{
+  font-family: monospace;
+  position: absolute;
+  margin-top: 45vh;
+  padding: 10px 20px;
+  background: #757577dc;;
+  color: #fff;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  border: 1px solid #757577dc;
+  margin: auto;
+
+}
+.jaguar button:hover{
+  font-family: monospace;
+  background: #242026;
+  color: #a0a0a2dc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #757577dc, 0 0 25px #757577dc, 0 0 50px #757577dc, 0 0 100px #757577dc;
+}
+.mercedes{
+  position: absolute;
+  color: #fff;
+  border-radius: 5px;
+  width: 160px;
+  margin-top: 0vh;
+  opacity: 0.9;
+}
+.mercedes button{
+  font-family: monospace;
+  position: absolute;
+  margin-top: 45vh;
+  padding: 10px 20px;
+  background: #757577dc;;
+  color: #fff;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  border: 1px solid #757577dc;
+  margin: auto;
+
+}
+.mercedes button:hover{
+  font-family: monospace;
+  background: #242026;
+  color: #a0a0a2dc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #757577dc, 0 0 25px #757577dc, 0 0 50px #757577dc, 0 0 100px #757577dc;
+}
+.porsche{
+  position: absolute;
+  color: #fff;
+  border-radius: 5px;
+  width: 160px;
+  margin-top: 0vh;
+  opacity: 0.9;
+}
+.porsche button{
+  font-family: monospace;
+  position: absolute;
+  margin-top: 45vh;
+  padding: 10px 20px;
+  background: #757577dc;;
+  color: #fff;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  border: 1px solid #757577dc;
+  margin: auto;
+
+}
+.porsche button:hover{
+  font-family: monospace;
+  background: #242026;
+  color: #a0a0a2dc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #757577dc, 0 0 25px #757577dc, 0 0 50px #757577dc, 0 0 100px #757577dc;
+}
+.mini{
+  position: absolute;
+  color: #fff;
+  border-radius: 5px;
+  width: 160px;
+  margin-top: 0vh;
+  opacity: 0.9;
+}
+.mini button{
+  font-family: monospace;
+  position: absolute;
+  margin-top: 45vh;
+  padding: 10px 20px;
+  background: #757577dc;;
+  color: #fff;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  border: 1px solid #757577dc;
+  margin: auto;
+
+}
+.mini button:hover{
+  font-family: monospace;
+  background: #242026;
+  color: #a0a0a2dc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #757577dc, 0 0 25px #757577dc, 0 0 50px #757577dc, 0 0 100px #757577dc;
+}
+.gallery__prev, .gallery__next {
+  position: absolute;
+  top: 50%;
+  z-index: 4;
+  width: 50%;
+  height: 100%;
+  transform: translateX(-50%) translateY(-50%) scale(.8);
+  cursor: pointer;
+}
+.gallery__prev {
+  left: 0;
+}
+.gallery__next {
+  left: 100%;
+}
+.gallery:before,
+.gallery:after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 20%;
+  height: 100%;
+  z-index: 3;
+}

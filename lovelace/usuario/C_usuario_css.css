@@ -1,0 +1,56 @@
+body{
+    background-image: url('fundo_login.jpeg');
+    opacity: 0.9;
+    font-family: monospace;
+}
+.login-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;  
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: #242026;
+    box-shadow: 0, 15px, 25px, rgba(0, 0, 0, 0.7);
+}
+.login-box h2{
+    margin: 0,0,30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+.login-box .user-box input{
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+.button-form{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.button-form button{
+    background-color: #242026;
+    padding: 10px 20px;
+    color: #a0a0a2dc;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    border: 1px solid #757577dc;
+    margin: auto;
+}
+.button-form button:hover{
+    background: #757577dc;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #757577dc, 0 0 25px #757577dc, 0 0 50px #757577dc, 0 0 100px #757577dc;
+}

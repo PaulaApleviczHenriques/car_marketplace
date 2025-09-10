@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="C_pix_css.css">
+    <script type="text/javascript" src="C_pix_js.js"></script>
+    <meta charset="utf-8">
+    <link rel="icon" href="../favicon.png">
+    <title>LOVELACE</title>
+  </head>
+  <body>
+    <div class ="pagamento-box">
+      <Form id="pix"> 
+        <h2> PIX </h2>
+        <div class="nome-box">
+          <input type="text" name="nome" required="" placeholder="Nome" id="nome">
+        </div>
+        <div class="qrcode">
+          <img style="float: center"class="imagem_qrcode" src="qrcode.png"/> 
+        </div>
+        <div class="button-form">
+          <a type="button" onclick="salvarpix()" id="Enviar" href="../principal/C_principal_html.html">Enviar</a>
+          <c id="pixtotal"></c>
+        </div>
+      </Form>
+    </div>
+  </body>
+</html>
