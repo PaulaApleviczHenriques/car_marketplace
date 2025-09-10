@@ -1,0 +1,21 @@
+
+Lovelace 
+
+Devs : Paula Henriques, Bruno Klemz, Matheus Kozak , Cesar Abulquerque
+
+Tema : Venda de veículos elétricos 
+
+Pastas :  
+
+	login 
+	cadastro 
+	principal 
+	produtos 
+	carrinho 
+	pagamento 
+	pix 
+	cartão  
+	dumps (pasta com o banco de dados .sql)
+
+**OBS.: Cada pasta contém seus respectivos arquivos de HTML, CSS, JS, PHP e SQL. E imagens. 
+
